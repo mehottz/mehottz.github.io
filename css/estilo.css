@@ -1,0 +1,62 @@
+* {
+    font-family: 'Klee One', cursive;
+}
+
+body {
+    margin: 0px;
+    background-color: #FFFAFA;
+}
+
+.logo img{
+    float: right;
+    width: 15%;
+    border: thin solid;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 5px 10px 10px 0;
+}
+
+header {
+    background-color: #CD5C5C;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+
+header h1, header a {
+    color:#fff;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header a:active {
+    color:#FFC0CB
+}
+
+header li:hover{
+    background-color: rgb(196, 32, 63);
+}
+
+header ul {
+    padding-left: 0;
+}
+
+header li {
+    width:120px;
+    text-align:center;
+    list-style: none;
+    padding:7px 15px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+}
+
+main{
+    color: black;
+}
