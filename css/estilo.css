@@ -1,5 +1,5 @@
 * {
-    font-family: 'Klee One', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -7,61 +7,48 @@ body {
     background-color: #FFFAFA;
 }
 
-.logo img{
+img{
     float: left;
     width: 15%;
     border: thin solid;
     border-radius: 100%;
     padding: 10px;
-    margin: 5px 10px 10px 0;
+    margin: 90px 20px 10px 0;
 }
 
-header {
+.lateral{
     background-color: #CD5C5C;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-bottom: 100px;
 }
 
-header h1, header a {
-    color:#fff;
+#menu ul {
+    padding:10px;
+    margin:0px;
+    background-color:#CD5C5C;
+    list-style:none;
+    font-size: 18px;
+    /* text-align: center; */
 }
 
-header a {
+#menu ul li { 
+    display: inline;
+    margin: 50px;
+}
+
+#menu ul li a {
+    padding: 10px 100px;
+    display: inline-block;
+    color: rgb(243, 242, 242);
     text-decoration: none;
-    text-transform: uppercase;
+    border-bottom:4px solid #EDEDED;
 }
 
-header a:active {
-    color:#FFC0CB
+#menu ul li a:hover {
+    color: #f5f0f0;
+    border-bottom:4px solid #d39d9d;
 }
 
-header li:hover{
-    background-color: rgb(196, 32, 63);
-}
-
-header ul {
-    padding-left: 0;
-}
-
-header li {
-    width:120px;
-    text-align:center;
-    list-style: none;
-    padding:7px 15px;
-}
-
-header h1 {
-    margin: 0;
-    text-align: center;
-    font-size: 3em;
-}
-
-header nav{
-    float: right;
-}
-
-main{
+.conteudo{
+    background-color: #FFEFD5;
     color: black;
     margin: 15px;
 }
