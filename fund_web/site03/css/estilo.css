@@ -1,0 +1,234 @@
+body {
+	margin: 0;
+	font-family: Tahoma, sans-serif;
+}
+
+header {
+	background-color: rgb(227,227,227);
+	color: rgb(13, 44, 57);
+	padding-top: 3px;
+}
+
+.centralizado {
+	width: 780px;
+	margin: 0 auto;
+	position: relative;
+}
+
+header > .centralizado{
+	position: relative;
+	left: 40px;
+}
+
+#logo {
+	font-size: 1em;
+	font-weight: bolder;
+	margin-top: 0;
+	padding-top: 5px;
+}
+
+#logo span {
+	color: rgb(250, 127, 0);
+}
+
+header h2 {
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+header p {
+	font-size: 1em;
+}
+
+#pano-fundo {
+	height: 320px;
+	width: 620px;
+	background: url(../img/entregador_site4.png) no-repeat top right;
+}
+
+#slogan {
+	width: 300px;
+}
+
+header img {
+	float: left;
+	width: 200px;
+}
+
+header nav {
+	clear: left;
+	background-color: rgb(13, 42, 54);
+	padding: 1px 0;
+}
+
+header li {
+	display: inline;
+	padding: 16px 24px;
+}
+header li:last-child {
+	margin-right: 0;
+}
+
+header li:hover{
+	background-color: rgb(250, 127, 0);
+	color: rgb(227,227,227);
+}
+
+header li:first-child {
+	background-color: rgb(250, 127, 0);
+	padding: 16px 30px;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.contato {
+	background-color: rgb(1, 21, 31);
+	color: #fff;
+	padding: 5px;
+	width: 160px;
+	font-weight: bold;
+	font-size: 0.8em;
+	border-radius: 5px;
+	position: absolute;
+	top:0;
+	right: 130px;
+}
+
+.contato span {
+	color: rgb(250, 127, 0);
+}
+
+main{
+	top: 40px;
+	left:40px;
+	position: relative;
+}
+
+main section {
+	font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+	width: 225px;
+	float: left;
+	margin-right: 10px;
+	border: 5px rgb(240, 240, 240) solid;
+}
+
+main section:last-child {
+	margin-right: 0;
+}
+main img {
+	width: inherit;
+	height: 150px;
+	margin: 0px;
+}
+
+.destaque {
+	clip-path: polygon(0 0, 100% 0, 100% 70%, 60% 70%, 50% 100%, 40% 70%, 0 70%);
+	background-color: rgb(13, 42, 54);
+	width: inherit;
+	height: auto;
+	padding-bottom: 15px;
+	margin-top: -5px;
+}
+section h3{
+	color: #FCFCFC;
+	margin: 0px;
+	padding: 5px;
+}
+main section p{
+	margin: 5px;
+	font-size: 12px;
+}
+main section button {
+	width: auto;
+	padding: 3px 10px 5px 10px;
+	float: right;
+	color: #FFFFFF;
+	background-color: rgb(250, 127, 0);
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	position: relative;
+	bottom: 10px;
+	right: 10px;
+	text-transform: uppercase;
+}
+
+/* footer */
+footer{
+	background-color: rgb(13, 42, 54);
+	color: rgb(227,227,227);
+	bottom:0px;
+	top:60px;
+	position: relative;
+	clear: both;
+	/* display:block; */
+	padding: 0px 180px;
+}
+footer section{
+	padding: 10px 20px;
+	display: inline-block;
+	font-family: 'Comic Sans MS', 'Comic Sans', 'cursive';
+	position: relative;
+	font-size:14px;
+}
+footer section#fale-conosco{
+	width:360px;
+	border-right: 2px solid rgb(2, 24, 33);
+}
+footer section#areas-cobertas{
+	padding-top: 0px;
+	width:270px;
+	position: absolute;
+	top: 10px;
+	margin-left:30px;
+	/* clear: both; */
+}
+
+footer input, footer textarea{
+	width: 90%;
+	background-color: #00151E;
+	color: rgb(227,227,227);
+	border: none;
+	padding: 3px;
+	margin-top:2px;
+}
+footer textarea{
+	margin-top:2px;
+}
+
+footer section button{
+	width: auto;
+	padding: 4px 2px;
+	float: right;
+	color: #FFFFFF;
+	background-color: rgb(250, 127, 0);
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	clear:both;
+	position: relative;
+	right: 28px;
+}
+
+/* footer -> table */
+footer section table{
+	background-color: #00151E;
+	color: rgb(227,227,227);
+	width:270px;
+}
+footer section table td{
+	padding: 2px 5px;
+}
+
+footer section .icons{
+	float:right;
+	margin:2px;
+}
+
+
+
+
+
