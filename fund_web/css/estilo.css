@@ -26,7 +26,6 @@ img{
     background-color:#CD5C5C;
     list-style:none;
     font-size: 18px;
-    /* text-align: center; */
 }
 
 #menu ul li { 
@@ -61,4 +60,8 @@ div li {
     width:500px;
     list-style: none;
     padding:5px 10px;
+}
+
+#texto{
+    font-size: 5px;
 }
