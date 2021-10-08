@@ -1,0 +1,14 @@
+.receita figure  {
+    position:relative;
+}
+
+.receita figcaption {
+    position:absolute;
+    bottom:0;
+    background-color: rgba(0,0, 0, 0.5);
+    color:#fff;
+    width:345px;
+    text-align:center;
+    margin: 0 15px 0 0;
+    padding: 10px 5px;
+}
